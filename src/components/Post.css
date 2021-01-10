@@ -1,0 +1,54 @@
+.post{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    float: left;
+    width: 250px;
+    height: 275px;
+    margin-left: 15px;
+    margin-bottom: 25px;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline;
+}
+
+.page_title{
+    font-size: 2.5em;
+    align: center;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.post_title{
+    font-size: 1em;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.post_button{
+    align: center;
+    display: inline-block;
+}
+.ind_button {
+    margin-left: 10px;
+}
+
+.post_body{
+    margin: 10px;
+    white-space: pre-wrap;
+    text-align: left;
+}
+
+.post_list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.post_category{
+    text-align: center;
+}
+
+.post_datestamp{
+    text-align: center;
+}

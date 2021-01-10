@@ -1,0 +1,14 @@
+.nav_btn {
+    display: block;
+    margin-bottom: 10px;
+}
+
+nav ul  {
+    position: relative;
+    display: block;
+}
+
+h1{
+    text-decoration: none;
+    color: white;
+}
